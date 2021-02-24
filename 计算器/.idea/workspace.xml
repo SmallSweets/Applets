@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="96c66f54-e412-4eff-a6cb-e424fed9d1d0" name="Default Changelist" comment="" />
+    <list default="true" id="96c66f54-e412-4eff-a6cb-e424fed9d1d0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,15 +11,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/$Calculator.coverage" NAME="Calculator Coverage Results" MODIFIED="1614095609762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$Calculator.coverage" NAME="Calculator Coverage Results" MODIFIED="1614175823820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Calculator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="577">
-              <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="18" />
+            <state relative-caret-position="190">
+              <caret line="82" column="28" lean-forward="true" selection-start-line="82" selection-start-column="28" selection-end-line="82" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -25,7 +30,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://E:/python38/Lib/tkinter/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26904">
+            <state relative-caret-position="124">
               <caret line="1419" selection-start-line="1419" selection-end-line="1419" />
             </state>
           </provider>
@@ -50,6 +55,18 @@
       <find>13</find>
       <find>number</find>
       <find>symbol</find>
+      <find>font=20</find>
+      <find>width=9</find>
+      <find>height=3</find>
+      <find>y=500</find>
+      <find>y=410</find>
+      <find>y=320</find>
+      <find>y=230</find>
+      <find>y=140</find>
+      <find>y=420</find>
+      <find>y=330</find>
+      <find>y=240</find>
+      <find>y=150</find>
     </findStrings>
     <replaceStrings>
       <replace>200</replace>
@@ -61,6 +78,18 @@
       <replace>3</replace>
       <replace>9</replace>
       <replace>click</replace>
+      <replace>font=(&quot;黑体&quot;, 20, &quot;bold&quot;)</replace>
+      <replace>width=6</replace>
+      <replace>height=2</replace>
+      <replace>y=510</replace>
+      <replace>y=420</replace>
+      <replace>y=330</replace>
+      <replace>y=240</replace>
+      <replace>y=150</replace>
+      <replace>y=425</replace>
+      <replace>y=335</replace>
+      <replace>y=245</replace>
+      <replace>y=155</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -158,24 +187,23 @@
       <option name="presentableId" value="Default" />
       <updated>1614073842005</updated>
       <workItem from="1614073843135" duration="15719000" />
-      <workItem from="1614137289944" duration="366000" />
+      <workItem from="1614137289944" duration="25316000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16085000" />
+    <option name="totallyTimeSpent" value="41035000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2533512" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3281471" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32719547" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.398017" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -195,18 +223,32 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Calculator.py</url>
+          <line>79</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Calculator.py">
+    <entry file="file://E:/python38/Lib/tkinter/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="18" />
+        <state relative-caret-position="124">
+          <caret line="1419" selection-start-line="1419" selection-end-line="1419" />
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/python38/Lib/tkinter/__init__.py">
+    <entry file="file://$PROJECT_DIR$/Calculator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26904">
-          <caret line="1419" selection-start-line="1419" selection-end-line="1419" />
+        <state relative-caret-position="190">
+          <caret line="82" column="28" lean-forward="true" selection-start-line="82" selection-start-column="28" selection-end-line="82" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
