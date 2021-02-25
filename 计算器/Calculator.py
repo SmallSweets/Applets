@@ -32,14 +32,18 @@ def click(x):
     if x in "+-×÷％±":
         if x == "％":
             show_result_text.delete("1.0", "end")
-            show_result_text.insert("end", eval(all_input + "/100"))
-            number_list.append(str(eval(all_input + "/100")))
+            show_result_text.insert("end", eval(all_input+"/100"))
+            # 更新all_input的值
+            all_input = str(eval(all_input + "/100"))
         if x == "±":
             show_result_text.delete("1.0", "end")
-            show_result_text.insert("end", "-")
-            show_result_text.insert("end", all_input)
-            all_input = "-" + all_input
-        else:
+            if "-" in all_input:
+                all_input = all_input.replace("-","")
+                show_result_text.insert("end", all_input)
+            else:
+                all_input = "-" + all_input
+                show_result_text.insert("end", all_input)
+        if x in "+-×÷":
             # 加减乘除键点击时改变背景颜色和字体颜色
             if x == "+":
                 calculate_button_jia['bg'] = "white"
@@ -55,6 +59,7 @@ def click(x):
                 calculate_button_jian['fg'] = "orange"
             show_result_text.delete("1.0", "end")
             number_list.append(all_input)
+            print(all_input)
             symbol_list.append(x)
             all_input = ""
     else:
